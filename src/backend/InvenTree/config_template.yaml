@@ -17,6 +17,17 @@
 # Do not change this section if you are using the package - use `inventree config` instead
 # TO MAINTAINERS: Do not change database strings
 database:
+  ENGINE: postgresql
+  NAME: inventory_test1
+  USER: inventory_admin
+  PASSWORD: inventory.admin
+  HOST: inventory_host
+  PORT: 5432
+media_root: '/opt/render/project/src/media'
+static_root: '/opt/render/project/src/static'
+backup_dir: '/opt/render/project/src/backups'
+allowed_hosts:
+  - '*'
   # --- Available options: ---
   # ENGINE: Database engine. Selection from:
   #         - mysql
