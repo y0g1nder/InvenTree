@@ -8,7 +8,7 @@ msgstr ""
 "Language: zh\n"
 "Project-Id-Version: inventree\n"
 "Report-Msgid-Bugs-To: \n"
-"PO-Revision-Date: 2025-06-26 06:32\n"
+"PO-Revision-Date: 2025-06-27 06:59\n"
 "Last-Translator: \n"
 "Language-Team: Chinese Simplified\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
@@ -5179,15 +5179,15 @@ msgstr "{0}"
 
 #: src/pages/Index/Settings/AccountSettings/QrRegistrationForm.tsx:24
 msgid "Secret"
-msgstr ""
+msgstr "密钥"
 
 #: src/pages/Index/Settings/AccountSettings/QrRegistrationForm.tsx:30
 msgid "One-Time Password"
-msgstr ""
+msgstr "动态密码"
 
 #: src/pages/Index/Settings/AccountSettings/QrRegistrationForm.tsx:31
 msgid "Enter the TOTP code to ensure it registered correctly"
-msgstr ""
+msgstr "输入TOTP 代码以确保正确注册"
 
 #: src/pages/Index/Settings/AccountSettings/SecurityContent.tsx:55
 #~ msgid "Single Sign On Accounts"
@@ -5195,11 +5195,11 @@ msgstr ""
 
 #: src/pages/Index/Settings/AccountSettings/SecurityContent.tsx:56
 msgid "Email Addresses"
-msgstr ""
+msgstr "电子邮件地址"
 
 #: src/pages/Index/Settings/AccountSettings/SecurityContent.tsx:64
 msgid "Single Sign On"
-msgstr ""
+msgstr "单点登录"
 
 #: src/pages/Index/Settings/AccountSettings/SecurityContent.tsx:69
 #~ msgid "Multifactor"
@@ -5215,7 +5215,7 @@ msgstr "未启用"
 
 #: src/pages/Index/Settings/AccountSettings/SecurityContent.tsx:75
 msgid "Single Sign On is not enabled for this server "
-msgstr ""
+msgstr "此服务器未启用单点登录 "
 
 #: src/pages/Index/Settings/AccountSettings/SecurityContent.tsx:83
 #~ msgid "Multifactor authentication is not configured for your account"
@@ -5223,21 +5223,21 @@ msgstr ""
 
 #: src/pages/Index/Settings/AccountSettings/SecurityContent.tsx:90
 msgid "Access Tokens"
-msgstr ""
+msgstr "访问令牌"
 
 #: src/pages/Index/Settings/AccountSettings/SecurityContent.tsx:128
 msgid "Error while updating email"
-msgstr ""
+msgstr "更新电子邮件时出错"
 
 #: src/pages/Index/Settings/AccountSettings/SecurityContent.tsx:141
 #: src/pages/Index/Settings/AccountSettings/SecurityContent.tsx:297
 #: src/pages/Index/Settings/AccountSettings/SecurityContent.tsx:433
 msgid "Not Configured"
-msgstr ""
+msgstr "未配置"
 
 #: src/pages/Index/Settings/AccountSettings/SecurityContent.tsx:144
 msgid "Currently no email addresses are registered."
-msgstr ""
+msgstr "当前未注册任何电子邮件地址。"
 
 #: src/pages/Index/Settings/AccountSettings/SecurityContent.tsx:151
 msgid "The following email addresses are associated with your account:"
@@ -5277,7 +5277,7 @@ msgstr "邮箱地址"
 
 #: src/pages/Index/Settings/AccountSettings/SecurityContent.tsx:226
 msgid "Error while adding email"
-msgstr ""
+msgstr "添加电子邮件时出错"
 
 #: src/pages/Index/Settings/AccountSettings/SecurityContent.tsx:237
 msgid "Add Email"
@@ -5301,72 +5301,72 @@ msgstr "添加电子邮件"
 
 #: src/pages/Index/Settings/AccountSettings/SecurityContent.tsx:300
 msgid "There are no providers connected to this account."
-msgstr ""
+msgstr "没有供应商连接到此帐户。"
 
 #: src/pages/Index/Settings/AccountSettings/SecurityContent.tsx:308
 msgid "You can sign in to your account using any of the following providers"
-msgstr ""
+msgstr "您可以使用以下任何供应商登录到您的帐户"
 
 #: src/pages/Index/Settings/AccountSettings/SecurityContent.tsx:321
 msgid "Remove Provider Link"
-msgstr ""
+msgstr "删除供应商链接"
 
 #: src/pages/Index/Settings/AccountSettings/SecurityContent.tsx:437
 msgid "No multi-factor tokens configured for this account"
-msgstr ""
+msgstr "该账户未配置多因素认证令牌"
 
 #: src/pages/Index/Settings/AccountSettings/SecurityContent.tsx:447
 msgid "Last used at"
-msgstr ""
+msgstr "最近使用"
 
 #: src/pages/Index/Settings/AccountSettings/SecurityContent.tsx:450
 msgid "Created at"
-msgstr ""
+msgstr "创建于"
 
 #: src/pages/Index/Settings/AccountSettings/SecurityContent.tsx:471
 #: src/pages/Index/Settings/AccountSettings/SecurityContent.tsx:574
 msgid "Recovery Codes"
-msgstr ""
+msgstr "恢复代码"
 
 #: src/pages/Index/Settings/AccountSettings/SecurityContent.tsx:475
 msgid "Unused Codes"
-msgstr ""
+msgstr "未使用的代码"
 
 #: src/pages/Index/Settings/AccountSettings/SecurityContent.tsx:480
 msgid "Used Codes"
-msgstr ""
+msgstr "已使用的代码"
 
 #: src/pages/Index/Settings/AccountSettings/SecurityContent.tsx:533
 msgid "Error while registering recovery codes"
-msgstr ""
+msgstr "注册恢复码时出错"
 
 #: src/pages/Index/Settings/AccountSettings/SecurityContent.tsx:567
 msgid "TOTP"
-msgstr ""
+msgstr "TOTP"
 
 #: src/pages/Index/Settings/AccountSettings/SecurityContent.tsx:568
 msgid "Time-based One-Time Password"
-msgstr ""
+msgstr "基于时间的一次性密码"
 
 #: src/pages/Index/Settings/AccountSettings/SecurityContent.tsx:575
 msgid "One-Time pre-generated recovery codes"
-msgstr ""
+msgstr "预生成的一次性恢复代码"
 
 #: src/pages/Index/Settings/AccountSettings/SecurityContent.tsx:589
 msgid "Add Token"
-msgstr ""
+msgstr "添加令牌"
 
 #: src/pages/Index/Settings/AccountSettings/SecurityContent.tsx:604
 msgid "Register TOTP Token"
-msgstr ""
+msgstr "注册TOTP 令牌"
 
 #: src/pages/Index/Settings/AccountSettings/SecurityContent.tsx:629
 msgid "Error registering TOTP token"
-msgstr ""
+msgstr "注册TOTP 令牌时出错"
 
 #: src/pages/Index/Settings/AccountSettings/SecurityContent.tsx:705
 msgid "Enter your password"
-msgstr ""
+msgstr "输入您的密码"
 
 #: src/pages/Index/Settings/AccountSettings/SecurityContent.tsx:741
 #~ msgid "Token is used - no actions"
@@ -5450,11 +5450,11 @@ msgstr "点"
 
 #: src/pages/Index/Settings/AccountSettings/useConfirm.tsx:93
 msgid "Reauthentication"
-msgstr ""
+msgstr "重新认证"
 
 #: src/pages/Index/Settings/AccountSettings/useConfirm.tsx:109
 msgid "OK"
-msgstr ""
+msgstr "确定"
 
 #: src/pages/Index/Settings/AdminCenter.tsx:91
 #~ msgid "Advanced Amininistrative Options for InvenTree"
@@ -5491,7 +5491,7 @@ msgstr "基准货币"
 
 #: src/pages/Index/Settings/AdminCenter/Index.tsx:107
 msgid "User Management"
-msgstr ""
+msgstr "用户管理"
 
 #: src/pages/Index/Settings/AdminCenter/Index.tsx:114
 msgid "Data Import"
@@ -5499,7 +5499,7 @@ msgstr "数据导入"
 
 #: src/pages/Index/Settings/AdminCenter/Index.tsx:120
 msgid "Data Export"
-msgstr ""
+msgstr "数据导出"
 
 #: src/pages/Index/Settings/AdminCenter/Index.tsx:126
 msgid "Barcode Scans"
@@ -5579,7 +5579,7 @@ msgstr "高级选项"
 
 #: src/pages/Index/Settings/AdminCenter/MachineManagementPanel.tsx:56
 msgid "Machine Types"
-msgstr ""
+msgstr "设备类型"
 
 #: src/pages/Index/Settings/AdminCenter/MachineManagementPanel.tsx:62
 #~ msgid "There are no machine registry errors."
@@ -5587,11 +5587,11 @@ msgstr ""
 
 #: src/pages/Index/Settings/AdminCenter/MachineManagementPanel.tsx:64
 msgid "Machine Errors"
-msgstr ""
+msgstr "设备错误"
 
 #: src/pages/Index/Settings/AdminCenter/MachineManagementPanel.tsx:77
 msgid "Registry Registry Errors"
-msgstr ""
+msgstr "注册表错误"
 
 #: src/pages/Index/Settings/AdminCenter/MachineManagementPanel.tsx:80
 msgid "There are machine registry errors"
@@ -5723,7 +5723,7 @@ msgstr "所有单位"
 
 #: src/pages/Index/Settings/AdminCenter/UserManagementPanel.tsx:31
 msgid "Tokens"
-msgstr ""
+msgstr "令牌"
 
 #: src/pages/Index/Settings/AdminCenter/UserManagementPanel.tsx:32
 #~ msgid "Select settings relevant for user lifecycle. More available in"
@@ -5735,7 +5735,7 @@ msgstr ""
 
 #: src/pages/Index/Settings/SystemSettings.tsx:68
 msgid "Authentication"
-msgstr ""
+msgstr "身份验证"
 
 #: src/pages/Index/Settings/SystemSettings.tsx:94
 msgid "Barcodes"
@@ -5847,7 +5847,7 @@ msgstr "版本"
 #: src/pages/sales/SalesOrderDetail.tsx:131
 #: src/pages/stock/StockDetail.tsx:146
 msgid "Custom Status"
-msgstr ""
+msgstr "自定义状态"
 
 #: src/pages/build/BuildDetail.tsx:130
 #: src/pages/purchasing/PurchaseOrderDetail.tsx:124
@@ -5938,7 +5938,7 @@ msgstr "已创建"
 #: src/pages/sales/SalesOrderDetail.tsx:245
 #: src/tables/ColumnRenderers.tsx:252
 msgid "Start Date"
-msgstr ""
+msgstr "开始日期"
 
 #: src/pages/build/BuildDetail.tsx:245
 #: src/pages/purchasing/PurchaseOrderDetail.tsx:277
@@ -6157,14 +6157,14 @@ msgstr "生产订单"
 #: src/pages/sales/SalesIndex.tsx:90
 #: src/pages/sales/SalesIndex.tsx:111
 msgid "Table View"
-msgstr ""
+msgstr "表格视图"
 
 #: src/pages/build/BuildIndex.tsx:74
 #: src/pages/purchasing/PurchasingIndex.tsx:72
 #: src/pages/sales/SalesIndex.tsx:93
 #: src/pages/sales/SalesIndex.tsx:114
 msgid "Calendar View"
-msgstr ""
+msgstr "日历视图"
 
 #: src/pages/company/CompanyDetail.tsx:99
 msgid "Website"
@@ -6391,17 +6391,17 @@ msgstr "无库存"
 #: src/pages/core/GroupDetail.tsx:81
 #: src/pages/core/UserDetail.tsx:224
 msgid "System Overview"
-msgstr ""
+msgstr "系统概述"
 
 #: src/pages/core/GroupDetail.tsx:45
 msgid "Group Name"
-msgstr ""
+msgstr "组名"
 
 #: src/pages/core/GroupDetail.tsx:52
 #: src/pages/core/GroupDetail.tsx:67
 #: src/tables/settings/GroupTable.tsx:80
 msgid "Group Details"
-msgstr ""
+msgstr "组详情"
 
 #: src/pages/core/GroupDetail.tsx:55
 #: src/tables/settings/GroupTable.tsx:107
@@ -8413,21 +8413,21 @@ msgstr ""
 #: src/tables/sales/ReturnOrderTable.tsx:79
 #: src/tables/sales/SalesOrderTable.tsx:80
 msgid "Show orders with a target date"
-msgstr ""
+msgstr "显示目标日期的订单"
 
 #: src/tables/build/BuildOrderTable.tsx:149
 #: src/tables/purchasing/PurchaseOrderTable.tsx:87
 #: src/tables/sales/ReturnOrderTable.tsx:84
 #: src/tables/sales/SalesOrderTable.tsx:85
 msgid "Has Start Date"
-msgstr ""
+msgstr "有开始日期"
 
 #: src/tables/build/BuildOrderTable.tsx:150
 #: src/tables/purchasing/PurchaseOrderTable.tsx:88
 #: src/tables/sales/ReturnOrderTable.tsx:85
 #: src/tables/sales/SalesOrderTable.tsx:86
 msgid "Show orders with a start date"
-msgstr ""
+msgstr "显示开始日期的订单"
 
 #: src/tables/build/BuildOrderTable.tsx:179
 #~ msgid "Filter by user who issued this order"
@@ -9195,7 +9195,7 @@ msgstr "按模板部分筛选零件"
 
 #: src/tables/part/PartTable.tsx:275
 msgid "Is Variant"
-msgstr ""
+msgstr "是变体"
 
 #: src/tables/part/PartTable.tsx:276
 msgid "Filter by parts which are variants"
@@ -9417,7 +9417,7 @@ msgstr "插件"
 #: src/tables/plugin/PluginListTable.tsx:105
 #: src/tables/plugin/PluginListTable.tsx:421
 msgid "Mandatory"
-msgstr ""
+msgstr "必填"
 
 #: src/tables/plugin/PluginListTable.tsx:113
 #~ msgid "Plugin with id {id} not found"
@@ -9904,11 +9904,11 @@ msgstr "撤销"
 
 #: src/tables/settings/ApiTokenTable.tsx:154
 msgid "Error revoking token"
-msgstr ""
+msgstr "撤销令牌时出错"
 
 #: src/tables/settings/ApiTokenTable.tsx:176
 msgid "Tokens are only shown once - make sure to note it down."
-msgstr ""
+msgstr "令牌只显示一次 - 请务必记住它。"
 
 #: src/tables/settings/BarcodeScanHistoryTable.tsx:59
 msgid "Barcode Information"
@@ -9954,15 +9954,15 @@ msgstr "条码日志未启用"
 
 #: src/tables/settings/CustomStateTable.tsx:63
 msgid "Status Group"
-msgstr ""
+msgstr "状态组"
 
 #: src/tables/settings/CustomStateTable.tsx:84
 msgid "Logical State"
-msgstr ""
+msgstr "逻辑状态"
 
 #: src/tables/settings/CustomStateTable.tsx:96
 msgid "Identifier"
-msgstr ""
+msgstr "标识符"
 
 #: src/tables/settings/CustomStateTable.tsx:115
 #~ msgid "Add state"
@@ -10033,11 +10033,11 @@ msgstr "错误详情"
 
 #: src/tables/settings/ExportSessionTable.tsx:24
 msgid "Output Type"
-msgstr ""
+msgstr "输出类型"
 
 #: src/tables/settings/ExportSessionTable.tsx:34
 msgid "Exported On"
-msgstr ""
+msgstr "导出时间"
 
 #: src/tables/settings/FailedTasksTable.tsx:32
 #: src/tables/settings/PendingTasksTable.tsx:23
@@ -10061,11 +10061,11 @@ msgstr "尝试次数"
 
 #: src/tables/settings/FailedTasksTable.tsx:92
 msgid "No Information"
-msgstr ""
+msgstr "暂无相关信息"
 
 #: src/tables/settings/FailedTasksTable.tsx:93
 msgid "No error details are available for this task"
-msgstr ""
+msgstr "此任务没有可用的错误详情"
 
 #: src/tables/settings/GroupTable.tsx:66
 msgid "Group with id {id} not found"
@@ -10078,7 +10078,7 @@ msgstr "获取群组详细信息时出错"
 #: src/tables/settings/GroupTable.tsx:91
 #: src/tables/settings/GroupTable.tsx:185
 msgid "Name of the user group"
-msgstr ""
+msgstr "用户组名称"
 
 #: src/tables/settings/GroupTable.tsx:117
 #~ msgid "Permission set"
@@ -10098,7 +10098,7 @@ msgstr "确定要删除这个群组吗？"
 
 #: src/tables/settings/GroupTable.tsx:181
 msgid "Add Group"
-msgstr ""
+msgstr "添加组"
 
 #: src/tables/settings/GroupTable.tsx:198
 msgid "Add group"
@@ -10110,7 +10110,7 @@ msgstr "添加群组"
 
 #: src/tables/settings/GroupTable.tsx:219
 msgid "Edit Group"
-msgstr ""
+msgstr "编辑组"
 
 #: src/tables/settings/ImportSessionTable.tsx:37
 msgid "Delete Import Session"
@@ -10242,15 +10242,15 @@ msgstr "按启用状态筛选"
 
 #: src/tables/settings/UserTable.tsx:112
 msgid "Groups updated"
-msgstr ""
+msgstr "群组已更新"
 
 #: src/tables/settings/UserTable.tsx:113
 msgid "User groups updated successfully"
-msgstr ""
+msgstr "用户组更新成功"
 
 #: src/tables/settings/UserTable.tsx:120
 msgid "Error updating user groups"
-msgstr ""
+msgstr "更新用户组时出错"
 
 #: src/tables/settings/UserTable.tsx:139
 msgid "User with id {id} not found"
@@ -10294,7 +10294,7 @@ msgstr "您不能编辑当前登录用户的权限。"
 
 #: src/tables/settings/UserTable.tsx:207
 msgid "User Groups"
-msgstr ""
+msgstr "用户组"
 
 #: src/tables/settings/UserTable.tsx:305
 #~ msgid "Edit user"
@@ -10314,7 +10314,7 @@ msgstr "您确定要删除该用户吗？"
 
 #: src/tables/settings/UserTable.tsx:319
 msgid "Add User"
-msgstr ""
+msgstr "添加用户"
 
 #: src/tables/settings/UserTable.tsx:327
 msgid "Added user"
@@ -10338,7 +10338,7 @@ msgstr "显示超级用户"
 
 #: src/tables/settings/UserTable.tsx:379
 msgid "Edit User"
-msgstr ""
+msgstr "编辑用户"
 
 #: src/tables/stock/InstalledItemsTable.tsx:37
 #: src/tables/stock/InstalledItemsTable.tsx:91
@@ -10481,11 +10481,11 @@ msgstr "包括变体零件的库存项"
 
 #: src/tables/stock/StockItemTable.tsx:357
 msgid "Consumed"
-msgstr ""
+msgstr "已消耗"
 
 #: src/tables/stock/StockItemTable.tsx:358
 msgid "Show items which have been consumed by a build order"
-msgstr ""
+msgstr "显示被生产订单消耗的项目"
 
 #: src/tables/stock/StockItemTable.tsx:363
 msgid "Show stock items which are installed in other items"
@@ -10509,27 +10509,27 @@ msgstr "显示带有序列号的项目"
 
 #: src/tables/stock/StockItemTable.tsx:378
 msgid "Filter items by batch code"
-msgstr ""
+msgstr "按批号筛选项目"
 
 #: src/tables/stock/StockItemTable.tsx:384
 msgid "Filter items by serial number"
-msgstr ""
+msgstr "按序列号筛选项目"
 
 #: src/tables/stock/StockItemTable.tsx:389
 msgid "Serial Number LTE"
-msgstr ""
+msgstr "LTE序列号"
 
 #: src/tables/stock/StockItemTable.tsx:390
 msgid "Show items with serial numbers less than or equal to a given value"
-msgstr ""
+msgstr "显示序列号小于或等于给定值的项目"
 
 #: src/tables/stock/StockItemTable.tsx:395
 msgid "Serial Number GTE"
-msgstr ""
+msgstr "GTE序列号"
 
 #: src/tables/stock/StockItemTable.tsx:396
 msgid "Show items with serial numbers greater than or equal to a given value"
-msgstr ""
+msgstr "显示序列号大于或等于给定值的项目"
 
 #: src/tables/stock/StockItemTable.tsx:401
 msgid "Has Batch Code"
@@ -10553,59 +10553,59 @@ msgstr "显示有购买价格的项目"
 
 #: src/tables/stock/StockItemTable.tsx:417
 msgid "Show items which have expired"
-msgstr ""
+msgstr "显示已过期的项目"
 
 #: src/tables/stock/StockItemTable.tsx:423
 msgid "Show items which are stale"
-msgstr ""
+msgstr "显示旧项目"
 
 #: src/tables/stock/StockItemTable.tsx:428
 msgid "Expired Before"
-msgstr ""
+msgstr "过期前"
 
 #: src/tables/stock/StockItemTable.tsx:429
 msgid "Show items which expired before this date"
-msgstr ""
+msgstr "显示在此日期之前过期的项目"
 
 #: src/tables/stock/StockItemTable.tsx:435
 msgid "Expired After"
-msgstr ""
+msgstr "过期后"
 
 #: src/tables/stock/StockItemTable.tsx:436
 msgid "Show items which expired after this date"
-msgstr ""
+msgstr "显示在此日期后过期的项目"
 
 #: src/tables/stock/StockItemTable.tsx:442
 msgid "Updated Before"
-msgstr ""
+msgstr "在此之前更新"
 
 #: src/tables/stock/StockItemTable.tsx:443
 msgid "Show items updated before this date"
-msgstr ""
+msgstr "显示此日期之前更新的项目"
 
 #: src/tables/stock/StockItemTable.tsx:448
 msgid "Updated After"
-msgstr ""
+msgstr "在此之后更新"
 
 #: src/tables/stock/StockItemTable.tsx:449
 msgid "Show items updated after this date"
-msgstr ""
+msgstr "显示此日期后更新的项目"
 
 #: src/tables/stock/StockItemTable.tsx:454
 msgid "Stocktake Before"
-msgstr ""
+msgstr "在此之前的盘点"
 
 #: src/tables/stock/StockItemTable.tsx:455
 msgid "Show items counted before this date"
-msgstr ""
+msgstr "显示在此日期之前计数的项目"
 
 #: src/tables/stock/StockItemTable.tsx:460
 msgid "Stocktake After"
-msgstr ""
+msgstr "在此之后的盘点"
 
 #: src/tables/stock/StockItemTable.tsx:461
 msgid "Show items counted after this date"
-msgstr ""
+msgstr "显示在此日期后计数的项目"
 
 #: src/tables/stock/StockItemTable.tsx:466
 msgid "External Location"
@@ -10657,7 +10657,7 @@ msgstr "分配给客户"
 
 #: src/tables/stock/StockItemTable.tsx:646
 msgid "Assign items to a customer"
-msgstr ""
+msgstr "分配项目给客户"
 
 #: src/tables/stock/StockItemTable.tsx:653
 msgid "Delete stock"
@@ -10739,7 +10739,7 @@ msgstr "只显示通过的测试"
 
 #: src/tables/stock/StockItemTestResultTable.tsx:403
 msgid "Show results for enabled tests"
-msgstr ""
+msgstr "显示启用测试的结果"
 
 #: src/tables/stock/StockLocationTable.tsx:38
 #~ msgid "structural"

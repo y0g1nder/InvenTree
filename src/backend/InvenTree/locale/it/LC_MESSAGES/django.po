@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: inventree\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-06-26 21:57+0000\n"
-"PO-Revision-Date: 2025-06-26 22:00\n"
+"POT-Creation-Date: 2025-06-27 07:12+0000\n"
+"PO-Revision-Date: 2025-06-27 07:14\n"
 "Last-Translator: \n"
 "Language-Team: Italian\n"
 "Language: it_IT\n"
@@ -1392,15 +1392,15 @@ msgstr "Annullato"
 msgid "Complete"
 msgstr "Completo"
 
-#: build/tasks.py:196
+#: build/tasks.py:199
 msgid "Stock required for build order"
 msgstr "Giacenza richiesta per l'ordine di produzione"
 
-#: build/tasks.py:218
+#: build/tasks.py:221
 msgid "Overdue Build Order"
 msgstr "Ordine di produzione in ritardo"
 
-#: build/tasks.py:223
+#: build/tasks.py:226
 #, python-brace-format
 msgid "Build order {bo} is now overdue"
 msgstr "L'ordine di produzione {bo} è in ritardo"
@@ -2491,19 +2491,19 @@ msgstr "Solo revisione assemblaggio"
 
 #: common/setting/system.py:385
 msgid "Only allow revisions for assembly parts"
-msgstr ""
+msgstr "Consenti revisioni solo per articoli di assemblaggio"
 
 #: common/setting/system.py:390
 msgid "Allow Deletion from Assembly"
-msgstr ""
+msgstr "Consenti l'eliminazione dall'assemblaggio"
 
 #: common/setting/system.py:391
 msgid "Allow deletion of parts which are used in an assembly"
-msgstr ""
+msgstr "Permetti l'eliminazione degli articoli che sono usati in un assemblaggio"
 
 #: common/setting/system.py:396
 msgid "IPN Regex"
-msgstr ""
+msgstr "IPN Regex"
 
 #: common/setting/system.py:397
 msgid "Regular expression pattern for matching Part IPN"
@@ -2722,7 +2722,7 @@ msgstr "Utilizza solo articoli di varianti attive per calcolare i prezzi delle v
 
 #: common/setting/system.py:592
 msgid "Pricing Rebuild Interval"
-msgstr ""
+msgstr "Intervallo Di Ricostruzione Dei Prezzi"
 
 #: common/setting/system.py:593
 msgid "Number of days before part pricing is automatically updated"
@@ -2778,7 +2778,7 @@ msgstr "Genera report in modalità debug (output HTML)"
 
 #: common/setting/system.py:639
 msgid "Log Report Errors"
-msgstr ""
+msgstr "Registro errori"
 
 #: common/setting/system.py:640
 msgid "Log errors which occur when generating reports"
@@ -3964,7 +3964,7 @@ msgstr "Data dell’ultimo aggiornamento dei dati sulla disponibilità"
 
 #: company/models.py:1058
 msgid "Supplier Price Break"
-msgstr ""
+msgstr "Sconto Prezzo Fornitore"
 
 #: company/serializers.py:166
 msgid "Return the string representation for the primary address. This property exists for backwards compatibility."
@@ -3976,7 +3976,7 @@ msgstr "Valuta predefinita utilizzata per questo fornitore"
 
 #: company/serializers.py:221
 msgid "Company Name"
-msgstr ""
+msgstr "Nome Azienda"
 
 #: company/serializers.py:420 part/serializers.py:930 stock/serializers.py:498
 msgid "In Stock"
@@ -3992,15 +3992,15 @@ msgstr ""
 
 #: data_exporter/serializers.py:74
 msgid "Export Format"
-msgstr ""
+msgstr "Formato di esportazione"
 
 #: data_exporter/serializers.py:75
 msgid "Select export file format"
-msgstr ""
+msgstr "Seleziona il formato del file di esportazione"
 
 #: data_exporter/serializers.py:82
 msgid "Export Plugin"
-msgstr ""
+msgstr "Esporta Plugin"
 
 #: data_exporter/serializers.py:83
 msgid "Select export plugin"
@@ -4020,11 +4020,11 @@ msgstr ""
 
 #: generic/states/serializers.py:37
 msgid "Class"
-msgstr ""
+msgstr "Classe"
 
 #: generic/states/serializers.py:40
 msgid "Values"
-msgstr ""
+msgstr "Valori"
 
 #: generic/states/tests.py:22 order/status_codes.py:13
 msgid "Placed"
@@ -4032,7 +4032,7 @@ msgstr "Inviato"
 
 #: generic/states/validators.py:21
 msgid "Invalid status code"
-msgstr ""
+msgstr "Codice di stato non valido"
 
 #: importer/models.py:70
 msgid "Data File"
@@ -4040,11 +4040,11 @@ msgstr "File dati"
 
 #: importer/models.py:71
 msgid "Data file to import"
-msgstr ""
+msgstr "File dati da importare"
 
 #: importer/models.py:80
 msgid "Columns"
-msgstr ""
+msgstr "Colonne"
 
 #: importer/models.py:87
 msgid "Target model type for this import session"
@@ -4957,7 +4957,7 @@ msgstr ""
 
 #: order/serializers.py:634
 msgid "Automatically calculate purchase price based on supplier part data"
-msgstr ""
+msgstr "Calcola automaticamente il prezzo di acquisto in base ai dati del fornitore articolo"
 
 #: order/serializers.py:644
 msgid "Purchase price currency"
@@ -4965,7 +4965,7 @@ msgstr "Valuta prezzo d'acquisto"
 
 #: order/serializers.py:656
 msgid "Merge Items"
-msgstr ""
+msgstr "Unisci elementi"
 
 #: order/serializers.py:658
 msgid "Merge items with the same part, destination and target date into one line item"
@@ -4973,7 +4973,7 @@ msgstr ""
 
 #: order/serializers.py:665 part/serializers.py:551
 msgid "SKU"
-msgstr ""
+msgstr "Codice articolo"
 
 #: order/serializers.py:679 part/models.py:1089 part/serializers.py:378
 msgid "Internal Part Number"
@@ -4981,7 +4981,7 @@ msgstr "Numero Dell'articolo Interno"
 
 #: order/serializers.py:687
 msgid "Internal Part Name"
-msgstr ""
+msgstr "Numero Articolo Interno"
 
 #: order/serializers.py:703
 msgid "Supplier part must be specified"
@@ -5021,7 +5021,7 @@ msgstr "Data di Scadenza"
 
 #: order/serializers.py:801
 msgid "Enter expiry date for incoming stock items"
-msgstr ""
+msgstr "Inserisci la data di scadenza per gli articoli in arrivo"
 
 #: order/serializers.py:809
 msgid "Enter serial numbers for incoming stock items"
@@ -5888,31 +5888,31 @@ msgstr "Descrizione del parametro"
 
 #: part/models.py:3912
 msgid "Checkbox"
-msgstr ""
+msgstr "Casella di spunta"
 
 #: part/models.py:3913
 msgid "Is this parameter a checkbox?"
-msgstr ""
+msgstr "Questo parametro è una casella di spunta?"
 
 #: part/models.py:3919
 msgid "Valid choices for this parameter (comma-separated)"
-msgstr ""
+msgstr "Scelte valide per questo parametro (separato da virgola)"
 
 #: part/models.py:3930
 msgid "Selection list for this parameter"
-msgstr ""
+msgstr "Lista di selezione per questo parametro"
 
 #: part/models.py:3966
 msgid "Part Parameter"
-msgstr ""
+msgstr "Parametri Articolo"
 
 #: part/models.py:3992
 msgid "Parameter cannot be modified - part is locked"
-msgstr ""
+msgstr "Il parametro non può essere modificato - l'articolo è bloccato"
 
 #: part/models.py:4030
 msgid "Invalid choice for parameter value"
-msgstr ""
+msgstr "Scelta non valida per il valore del parametro"
 
 #: part/models.py:4081
 msgid "Parent Part"
@@ -5928,7 +5928,7 @@ msgstr "Valore del Parametro"
 
 #: part/models.py:4145
 msgid "Part Category Parameter Template"
-msgstr ""
+msgstr "Modello Parametro Categoria Articolo"
 
 #: part/models.py:4204
 msgid "Default Value"
@@ -6213,7 +6213,7 @@ msgstr "Articoli in magazzino"
 
 #: part/serializers.py:950
 msgid "Revisions"
-msgstr ""
+msgstr "Revisioni"
 
 #: part/serializers.py:954
 msgid "Suppliers"
@@ -6227,11 +6227,11 @@ msgstr "Giacenze Totali"
 
 #: part/serializers.py:966
 msgid "Unallocated Stock"
-msgstr ""
+msgstr "Scorte Non Assegnate"
 
 #: part/serializers.py:974
 msgid "Variant Stock"
-msgstr ""
+msgstr "Scorta Variante"
 
 #: part/serializers.py:1007
 msgid "Duplicate Part"
@@ -6477,11 +6477,11 @@ msgstr ""
 
 #: plugin/api.py:92
 msgid "Mandatory"
-msgstr ""
+msgstr "Obbligatorio"
 
 #: plugin/api.py:103
 msgid "Sample"
-msgstr ""
+msgstr "Campione"
 
 #: plugin/api.py:117 plugin/models.py:159
 msgid "Installed"
@@ -6489,7 +6489,7 @@ msgstr "Installato"
 
 #: plugin/api.py:184
 msgid "Plugin cannot be deleted as it is currently active"
-msgstr ""
+msgstr "Il plugin non può essere eliminato in quanto è attualmente attivo"
 
 #: plugin/base/action/api.py:34
 msgid "No action specified"
@@ -6509,7 +6509,7 @@ msgstr "Corrispondenza trovata per i dati del codice a barre"
 
 #: plugin/base/barcodes/api.py:253 plugin/base/barcodes/serializers.py:77
 msgid "Model is not supported"
-msgstr ""
+msgstr "Il modello non è supportato"
 
 #: plugin/base/barcodes/api.py:258
 msgid "Model instance not found"
@@ -6658,7 +6658,7 @@ msgstr ""
 
 #: plugin/base/barcodes/serializers.py:221
 msgid "Sales order is not open"
-msgstr ""
+msgstr "L'ordine di vendita non è aperto"
 
 #: plugin/base/barcodes/serializers.py:229
 msgid "Sales order line item to allocate items against"
@@ -6674,7 +6674,7 @@ msgstr ""
 
 #: plugin/base/barcodes/serializers.py:247
 msgid "Quantity to allocate"
-msgstr ""
+msgstr "Quantità da assegnare"
 
 #: plugin/base/label/label.py:39
 msgid "Label printing failed"
@@ -6682,15 +6682,15 @@ msgstr "Stampa etichetta fallita"
 
 #: plugin/base/label/mixins.py:55
 msgid "Error rendering label to PDF"
-msgstr ""
+msgstr "Errore nel rendering dell'etichetta in PDF"
 
 #: plugin/base/label/mixins.py:69
 msgid "Error rendering label to HTML"
-msgstr ""
+msgstr "Errore nel rendering dell'etichetta in HTML"
 
 #: plugin/base/label/mixins.py:146
 msgid "No items provided to print"
-msgstr ""
+msgstr "Nessun elemento fornito da stampare"
 
 #: plugin/base/ui/serializers.py:30
 msgid "Plugin Name"
@@ -6755,23 +6755,23 @@ msgstr "Contributi d'InvenTree"
 
 #: plugin/builtin/barcodes/inventree_barcode.py:34
 msgid "Internal Barcode Format"
-msgstr ""
+msgstr "Formato Interno Del Codice A Barre"
 
 #: plugin/builtin/barcodes/inventree_barcode.py:35
 msgid "Select an internal barcode format"
-msgstr ""
+msgstr "Seleziona un formato di codice a barre interno"
 
 #: plugin/builtin/barcodes/inventree_barcode.py:37
 msgid "JSON barcodes (human readable)"
-msgstr ""
+msgstr "Codici a barre JSON (leggibile dall'uomo)"
 
 #: plugin/builtin/barcodes/inventree_barcode.py:38
 msgid "Short barcodes (space optimized)"
-msgstr ""
+msgstr "Codici a barre corti (ottimizzato per la dimensione)"
 
 #: plugin/builtin/barcodes/inventree_barcode.py:43
 msgid "Short Barcode Prefix"
-msgstr ""
+msgstr "Prefisso Codice A Barre Corto"
 
 #: plugin/builtin/barcodes/inventree_barcode.py:45
 msgid "Customize the prefix used for short barcodes, may be useful for environments with multiple InvenTree instances"
@@ -6835,16 +6835,16 @@ msgstr ""
 
 #: plugin/builtin/exporter/bom_exporter.py:17
 msgid "Levels"
-msgstr ""
+msgstr "Livelli"
 
 #: plugin/builtin/exporter/bom_exporter.py:18
 msgid "Number of levels to export"
-msgstr ""
+msgstr "Numero di livelli da esportare"
 
 #: plugin/builtin/exporter/bom_exporter.py:23
 #: plugin/builtin/exporter/part_parameter_exporter.py:17
 msgid "Stock Data"
-msgstr ""
+msgstr "Dati Scorte"
 
 #: plugin/builtin/exporter/bom_exporter.py:23
 #: plugin/builtin/exporter/part_parameter_exporter.py:17

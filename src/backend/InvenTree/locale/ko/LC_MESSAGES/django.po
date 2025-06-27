@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: inventree\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-06-26 21:57+0000\n"
-"PO-Revision-Date: 2025-06-26 22:00\n"
+"POT-Creation-Date: 2025-06-27 07:12+0000\n"
+"PO-Revision-Date: 2025-06-27 07:14\n"
 "Last-Translator: \n"
 "Language-Team: Korean\n"
 "Language: ko_KR\n"
@@ -1392,15 +1392,15 @@ msgstr ""
 msgid "Complete"
 msgstr ""
 
-#: build/tasks.py:196
+#: build/tasks.py:199
 msgid "Stock required for build order"
 msgstr ""
 
-#: build/tasks.py:218
+#: build/tasks.py:221
 msgid "Overdue Build Order"
 msgstr ""
 
-#: build/tasks.py:223
+#: build/tasks.py:226
 #, python-brace-format
 msgid "Build order {bo} is now overdue"
 msgstr ""

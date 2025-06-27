@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: inventree\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-06-26 21:57+0000\n"
-"PO-Revision-Date: 2025-06-26 22:00\n"
+"POT-Creation-Date: 2025-06-27 07:12+0000\n"
+"PO-Revision-Date: 2025-06-27 07:14\n"
 "Last-Translator: \n"
 "Language-Team: German\n"
 "Language: de_DE\n"
@@ -1392,15 +1392,15 @@ msgstr "Storniert"
 msgid "Complete"
 msgstr "Fertig"
 
-#: build/tasks.py:196
+#: build/tasks.py:199
 msgid "Stock required for build order"
 msgstr "Bestand für Bauauftrag erforderlich"
 
-#: build/tasks.py:218
+#: build/tasks.py:221
 msgid "Overdue Build Order"
 msgstr "Überfälliger Bauauftrag"
 
-#: build/tasks.py:223
+#: build/tasks.py:226
 #, python-brace-format
 msgid "Build order {bo} is now overdue"
 msgstr "Bauauftrag {bo} ist jetzt überfällig"
@@ -3992,19 +3992,19 @@ msgstr ""
 
 #: data_exporter/serializers.py:74
 msgid "Export Format"
-msgstr ""
+msgstr "Export-Format"
 
 #: data_exporter/serializers.py:75
 msgid "Select export file format"
-msgstr ""
+msgstr "Export-Dateiformat wählen"
 
 #: data_exporter/serializers.py:82
 msgid "Export Plugin"
-msgstr ""
+msgstr "Export-Plugin"
 
 #: data_exporter/serializers.py:83
 msgid "Select export plugin"
-msgstr ""
+msgstr "Export-Plugin wählen"
 
 #: generic/states/fields.py:146
 msgid "Additional status information for this item"

@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: inventree\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-06-26 21:57+0000\n"
-"PO-Revision-Date: 2025-06-26 22:00\n"
+"POT-Creation-Date: 2025-06-27 07:12+0000\n"
+"PO-Revision-Date: 2025-06-27 07:14\n"
 "Last-Translator: \n"
 "Language-Team: Chinese Simplified\n"
 "Language: zh_CN\n"
@@ -158,7 +158,7 @@ msgstr "未找到序列号"
 #: InvenTree/helpers.py:723
 #, python-brace-format
 msgid "Number of unique serial numbers ({n}) must match quantity ({q})"
-msgstr ""
+msgstr "唯一序列号 ({n}) 必须匹配数量 ({q})"
 
 #: InvenTree/helpers.py:841
 msgid "Remove HTML tags from this value"
@@ -613,31 +613,31 @@ msgstr "开始日期晚于"
 
 #: build/api.py:227
 msgid "Has target date"
-msgstr ""
+msgstr "有目标日期"
 
 #: build/api.py:235
 msgid "Target date before"
-msgstr ""
+msgstr "目标日期前"
 
 #: build/api.py:239
 msgid "Target date after"
-msgstr ""
+msgstr "目标日期后"
 
 #: build/api.py:243
 msgid "Completed before"
-msgstr ""
+msgstr "之前完成"
 
 #: build/api.py:247
 msgid "Completed after"
-msgstr ""
+msgstr "之后完成"
 
 #: build/api.py:250 order/api.py:220
 msgid "Min Date"
-msgstr ""
+msgstr "最小日期"
 
 #: build/api.py:273 order/api.py:239
 msgid "Max Date"
-msgstr ""
+msgstr "最大日期"
 
 #: build/api.py:298 build/api.py:301 part/api.py:218
 msgid "Exclude Tree"
@@ -712,7 +712,7 @@ msgstr "無效的上層生產工單選擇"
 
 #: build/models.py:198
 msgid "Build orders can only be externally fulfilled for purchaseable parts"
-msgstr ""
+msgstr "生产订单仅能通过外部采购可购买零件来完成"
 
 #: build/models.py:205 order/models.py:364
 msgid "Responsible user or group must be specified"
@@ -724,7 +724,7 @@ msgstr "無法更改生產工單"
 
 #: build/models.py:215 order/models.py:377
 msgid "Target date must be after start date"
-msgstr ""
+msgstr "目标日期必须在开始日期之后"
 
 #: build/models.py:243
 msgid "Build Order Reference"
@@ -770,11 +770,11 @@ msgstr "選擇領取料件的倉儲地點（留白表示可以從任何地點領
 
 #: build/models.py:299
 msgid "External Build"
-msgstr ""
+msgstr "外部生产"
 
 #: build/models.py:300
 msgid "This build order is fulfilled externally"
-msgstr ""
+msgstr "此生产订单是由外部完成的"
 
 #: build/models.py:305
 msgid "Destination Location"
@@ -824,11 +824,11 @@ msgstr "建立日期"
 
 #: build/models.py:355
 msgid "Build start date"
-msgstr ""
+msgstr "生产开始日期"
 
 #: build/models.py:356
 msgid "Scheduled start date for this build order"
-msgstr ""
+msgstr "此生产订单的计划开始日期"
 
 #: build/models.py:362
 msgid "Target completion date"
@@ -1298,7 +1298,7 @@ msgstr "物料清单零件名称"
 
 #: build/serializers.py:1246 build/serializers.py:1402
 msgid "Build"
-msgstr ""
+msgstr "生产"
 
 #: build/serializers.py:1254 company/models.py:695 order/api.py:305
 #: order/api.py:310 order/api.py:525 order/serializers.py:596
@@ -1392,15 +1392,15 @@ msgstr "已取消"
 msgid "Complete"
 msgstr "完成"
 
-#: build/tasks.py:196
+#: build/tasks.py:199
 msgid "Stock required for build order"
 msgstr "生产订单所需库存"
 
-#: build/tasks.py:218
+#: build/tasks.py:221
 msgid "Overdue Build Order"
 msgstr "逾期的生产订单"
 
-#: build/tasks.py:223
+#: build/tasks.py:226
 #, python-brace-format
 msgid "Build order {bo} is now overdue"
 msgstr "生产订单 {bo} 现已逾期"
@@ -1814,7 +1814,7 @@ msgstr "密钥必须不同于逻辑密钥"
 
 #: common/models.py:2112
 msgid "Valid reference status class must be provided"
-msgstr ""
+msgstr "必须提供有效的参考状态类"
 
 #: common/models.py:2118
 msgid "Key must be different from the logical keys of the reference status"
@@ -1826,23 +1826,23 @@ msgstr "逻辑密钥必须在参考状态的逻辑键中"
 
 #: common/models.py:2132
 msgid "Name must be different from the names of the reference status"
-msgstr ""
+msgstr "名称必须不同于参考状态的名称"
 
 #: common/models.py:2172 common/models.py:2279 part/models.py:3929
 msgid "Selection List"
-msgstr ""
+msgstr "选择列表"
 
 #: common/models.py:2173
 msgid "Selection Lists"
-msgstr ""
+msgstr "选择列表"
 
 #: common/models.py:2178
 msgid "Name of the selection list"
-msgstr ""
+msgstr "选择列表的名称"
 
 #: common/models.py:2185
 msgid "Description of the selection list"
-msgstr ""
+msgstr "选择列表的描述"
 
 #: common/models.py:2191 part/models.py:1251
 msgid "Locked"
@@ -1850,35 +1850,35 @@ msgstr "已锁定"
 
 #: common/models.py:2192
 msgid "Is this selection list locked?"
-msgstr ""
+msgstr "此选择列表是否已锁定？"
 
 #: common/models.py:2198
 msgid "Can this selection list be used?"
-msgstr ""
+msgstr "能否使用此选择列表？"
 
 #: common/models.py:2206
 msgid "Source Plugin"
-msgstr ""
+msgstr "源插件"
 
 #: common/models.py:2207
 msgid "Plugin which provides the selection list"
-msgstr ""
+msgstr "提供选择列表的插件"
 
 #: common/models.py:2212
 msgid "Source String"
-msgstr ""
+msgstr "源字符串"
 
 #: common/models.py:2213
 msgid "Optional string identifying the source used for this list"
-msgstr ""
+msgstr "可选字符串，用于标识本列表的数据来源"
 
 #: common/models.py:2222
 msgid "Default Entry"
-msgstr ""
+msgstr "缺省项"
 
 #: common/models.py:2223
 msgid "Default entry for this selection list"
-msgstr ""
+msgstr "本选择列表的默认选项"
 
 #: common/models.py:2228 common/models.py:2617
 msgid "Created"
@@ -1886,7 +1886,7 @@ msgstr "已创建"
 
 #: common/models.py:2229
 msgid "Date and time that the selection list was created"
-msgstr ""
+msgstr "选择列表的创建日期和时间"
 
 #: common/models.py:2234
 msgid "Last Updated"
@@ -1894,35 +1894,35 @@ msgstr "最近更新"
 
 #: common/models.py:2235
 msgid "Date and time that the selection list was last updated"
-msgstr ""
+msgstr "选择列表的最后更新时间"
 
 #: common/models.py:2269
 msgid "Selection List Entry"
-msgstr ""
+msgstr "选择列表项"
 
 #: common/models.py:2270
 msgid "Selection List Entries"
-msgstr ""
+msgstr "选择列表项"
 
 #: common/models.py:2280
 msgid "Selection list to which this entry belongs"
-msgstr ""
+msgstr "此选项归属的选择列表"
 
 #: common/models.py:2286
 msgid "Value of the selection list entry"
-msgstr ""
+msgstr "选择列表项的值"
 
 #: common/models.py:2292
 msgid "Label for the selection list entry"
-msgstr ""
+msgstr "选择列表项的标签"
 
 #: common/models.py:2298
 msgid "Description of the selection list entry"
-msgstr ""
+msgstr "选择列表项的描述"
 
 #: common/models.py:2305
 msgid "Is this selection list entry active?"
-msgstr ""
+msgstr "该选择列表项是否处于激活状态？"
 
 #: common/models.py:2323
 msgid "Barcode Scan"
@@ -1979,31 +1979,31 @@ msgstr "条码扫描成功吗？"
 
 #: common/models.py:2469
 msgid "Email Message"
-msgstr ""
+msgstr "电子邮件信息"
 
 #: common/models.py:2470
 msgid "Email Messages"
-msgstr ""
+msgstr "电子邮箱信息"
 
 #: common/models.py:2477
 msgid "Announced"
-msgstr ""
+msgstr "已发布"
 
 #: common/models.py:2479
 msgid "Sent"
-msgstr ""
+msgstr "已发送"
 
 #: common/models.py:2480
 msgid "Failed"
-msgstr ""
+msgstr "失败"
 
 #: common/models.py:2483
 msgid "Delivered"
-msgstr ""
+msgstr "已送达"
 
 #: common/models.py:2491
 msgid "Confirmed"
-msgstr ""
+msgstr "已确认"
 
 #: common/models.py:2497
 msgid "Inbound"
@@ -2015,11 +2015,11 @@ msgstr ""
 
 #: common/models.py:2503
 msgid "No Reply"
-msgstr ""
+msgstr "暂无回复消息"
 
 #: common/models.py:2504
 msgid "Track Delivery"
-msgstr ""
+msgstr "跟踪交付"
 
 #: common/models.py:2505
 msgid "Track Read"
@@ -2031,27 +2031,27 @@ msgstr ""
 
 #: common/models.py:2509 common/models.py:2604
 msgid "Global ID"
-msgstr ""
+msgstr "全局ID"
 
 #: common/models.py:2522
 msgid "Identifier for this message (might be supplied by external system)"
-msgstr ""
+msgstr "此消息的标识符 (可能由外部系统提供)"
 
 #: common/models.py:2529
 msgid "Thread ID"
-msgstr ""
+msgstr "主题 ID"
 
 #: common/models.py:2531
 msgid "Identifier for this message thread (might be supplied by external system)"
-msgstr ""
+msgstr "此消息主题的标识符 (可能由外部系统提供)"
 
 #: common/models.py:2540
 msgid "Thread"
-msgstr ""
+msgstr "主题"
 
 #: common/models.py:2541
 msgid "Linked thread for this message"
-msgstr ""
+msgstr "链接到此消息的主题"
 
 #: common/models.py:2557
 msgid "Prioriy"
@@ -2059,11 +2059,11 @@ msgstr ""
 
 #: common/models.py:2591
 msgid "Email Thread"
-msgstr ""
+msgstr "邮件主题"
 
 #: common/models.py:2592
 msgid "Email Threads"
-msgstr ""
+msgstr "邮件主题"
 
 #: common/models.py:2598 generic/states/serializers.py:16 plugin/models.py:45
 #: users/models.py:119
@@ -2072,11 +2072,11 @@ msgstr "键"
 
 #: common/models.py:2601
 msgid "Unique key for this thread (used to identify the thread)"
-msgstr ""
+msgstr "此主题的唯一密钥 (用于识别主题)"
 
 #: common/models.py:2605
 msgid "Unique identifier for this thread"
-msgstr ""
+msgstr "此主题的唯一标识符"
 
 #: common/models.py:2612
 msgid "Started Internal"
@@ -2088,11 +2088,11 @@ msgstr ""
 
 #: common/models.py:2618
 msgid "Date and time that the thread was created"
-msgstr ""
+msgstr "创建主题的日期和时间"
 
 #: common/models.py:2623
 msgid "Date and time that the thread was last updated"
-msgstr ""
+msgstr "主题最后更新的日期和时间"
 
 #: common/notifications.py:332
 #, python-brace-format
@@ -3553,7 +3553,7 @@ msgstr ""
 
 #: common/setting/user.py:224
 msgid "Show the current page in breadcrumbs"
-msgstr ""
+msgstr "在导航栏中显示当前页面"
 
 #: common/setting/user.py:229
 msgid "Receive error reports"
@@ -3598,11 +3598,11 @@ msgstr "无效的域名: {domain}"
 
 #: common/validators.py:123
 msgid "Value must be uppercase"
-msgstr ""
+msgstr "值必须大写"
 
 #: common/validators.py:129
 msgid "Value must be a valid variable identifier"
-msgstr ""
+msgstr "值必须是一个有效的变量标识符"
 
 #: company/api.py:141
 msgid "Part is Active"
@@ -3636,7 +3636,7 @@ msgstr "公司"
 
 #: company/api.py:316
 msgid "Has Stock"
-msgstr ""
+msgstr "有库存"
 
 #: company/models.py:119
 msgid "Companies"
