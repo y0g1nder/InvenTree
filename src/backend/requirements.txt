@@ -2014,3 +2014,4 @@ zopfli==0.2.3.post1 \
     --hash=sha256:f815fcc2b2a457977724bad97fb4854022980f51ce7b136925e336b530545ae1 \
     --hash=sha256:fc39f5c27f962ec8660d8d20c24762431131b5d8c672b44b0a54cf2b5bcde9b9
     # via fonttools
+psycopg2-binary>=2.9,<3
